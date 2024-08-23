@@ -1,6 +1,3 @@
-Absolutely, I can help with that! A good README file for your GitHub project should provide a clear overview of the project, how to set it up, and how to use it. Here's a template to get you started, tailored for your React application that connects to MetaMask and displays Ethereum balance:
-
----
 
 # Ethereum Wallet Connector
 
@@ -34,7 +31,7 @@ Absolutely, I can help with that! A good README file for your GitHub project sho
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ethereum-wallet-connector.git
+   git clone [https://github.com/yourusername/ethereum-wallet-connector.git](https://github.com/786Ayush/wallet)
    cd ethereum-wallet-connector
    ```
 
