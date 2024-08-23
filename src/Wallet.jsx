@@ -14,6 +14,7 @@ const App = () => {
         const balanceInEth = web3.utils.fromWei(bal, "ether");
         console.log("Balance in ETH: ", balanceInEth); // Debugging: Log balance in ETH
         setBalance(balanceInEth);
+        setError(null)
       })
       .catch((err) => {
         console.error("Error fetching balance: ", err); // Debugging: Log any error
@@ -52,7 +53,7 @@ const App = () => {
         </button>
         {error && (
           <div className="text-red-500 mb-4 text-center">
-            <p>{error.message}</p>
+            <p>{"Please Verify"}</p>
             {!window.ethereum && (
               <p className="mt-2">
                 To use this feature, please{" "}
